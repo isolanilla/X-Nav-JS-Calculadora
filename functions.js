@@ -65,7 +65,7 @@ function calc (){
         spanResultado.innerHTML=resultado
       }
       if(operacion == "-"){
-        resultado +=parseInt(operando1) + parseInt(operando2)
+        resultado +=parseInt(operando1) - parseInt(operando2)
         spanResultado.innerHTML=resultado
       }
       if(operacion == "/"){
