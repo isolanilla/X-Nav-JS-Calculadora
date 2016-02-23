@@ -61,20 +61,17 @@ function calc (){
     if(valor =="="){
       operando2 = spanResultado.innerHTML;
       if(operacion == "+"){
-        resultado +=parseInt(operando1) + parseInt(operando2)
-        spanResultado.innerHTML=resultado
+
+        spanResultado.innerHTML=   parseInt(operando1) + parseInt(operando2)
       }
       if(operacion == "-"){
-        resultado +=parseInt(operando1) - parseInt(operando2)
-        spanResultado.innerHTML=resultado
+        spanResultado.innerHTML=parseInt(operando1) - parseInt(operando2)
       }
       if(operacion == "/"){
-        resultado /=parseInt(operando1) / parseInt(operando2)
-        spanResultado.innerHTML=resultado
+        spanResultado.innerHTML=parseInt(operando1) / parseInt(operando2)
       }
       if(operacion == "*"){
-        resultado *=parseInt(operando1) * parseInt(operando2)
-        spanResultado.innerHTML=resultado
+        spanResultado.innerHTML=parseInt(operando1) * parseInt(operando2)
       }
 
 
